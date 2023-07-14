@@ -1,0 +1,10 @@
+node_modules
+cypress/videos
+cypress/screenshots
+cypress/downloads
+allure-report
+allure-results
+package-lock.json
+mochawesome-report/
+cypress.config.js
+
