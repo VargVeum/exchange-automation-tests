@@ -1,13 +1,21 @@
 {
+  "scripts": {
+    "cypress:allure-test": "npx cypress run --browser chrome --headless --env --reporter mochawesome --spec 'cypress/e2e/tests/**/MC-allure.cy.js'",
+    "cypress:all-ui-test": "npx cypress run --browser chrome --headless --env --reporter mochawesome --spec 'cypress/e2e/tests/ui-tests/**.js'",
+    "cypress:all-api-test": "npx cypress run --browser chrome --headless --env --reporter mochawesome --spec 'cypress/e2e/tests/api-tests/**.js'",
+    "add-plugins": "npm i --save-dev cypress-mochawesome-reporter cypress-highlight @cypress/request allure-commandline --save-dev cypress-real-events cypress-time --save-dev cy-verify-downloads cypress-parallel @shelex/cypress-allure-plugin cypress-file-upload har-validator cypress-iframe cypress-plugin-tab pdf-parse",
+    "open-report": "mochawesome-report/mochawesome.html"
+  },
   "devDependencies": {
     "@cypress/request": "^2.88.11",
     "@shelex/cypress-allure-plugin": "^2.40.0",
-    "allure-commandline": "^2.23.0",
+    "allure-commandline": "^2.21.0",
     "cy-verify-downloads": "^0.1.15",
     "cypress": "^12.17.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-highlight": "^1.2.0",
     "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.5.1",
     "cypress-parallel": "^0.13.0",
     "cypress-plugin-tab": "^1.0.5",
     "cypress-real-events": "^1.8.1",
