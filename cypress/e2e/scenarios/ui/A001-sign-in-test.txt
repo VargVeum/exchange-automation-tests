@@ -1,0 +1,21 @@
+#positive scenario: Open main page & Login with valid credentials
+
+1) open main page
+2) check url
+3) check page content
+4) click Sign In button
+5) check page content
+6) fill Email Input
+7) fill Password Input
+8) click SignIn Button
+9) check Url that should contain dashboard url
+
+#negative scenario: Open sign in page & Login with invalid credentials
+
+1) open Sign In
+2) check url
+3) check page content
+4) fill Email Input
+5) fill Password Input
+6) click SignIn Button
+7) check that validation errors appears and contains relative text

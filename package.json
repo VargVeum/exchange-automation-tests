@@ -1,5 +1,18 @@
 {
   "devDependencies": {
-    "cypress": "^12.17.1"
+    "@cypress/request": "^2.88.11",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.0",
+    "cy-verify-downloads": "^0.1.15",
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-highlight": "^1.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-parallel": "^0.13.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-real-events": "^1.8.1",
+    "cypress-time": "^1.0.0",
+    "har-validator": "^5.1.5",
+    "pdf-parse": "^1.1.1"
   }
 }
