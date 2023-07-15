@@ -4,9 +4,6 @@ const signInPagePageLocators = {
     passwordInput: '#password',
     signInButton: '#sign-in',
     error: '#js-login-error',
-
-
-
 }
 
 export class SignInPage {

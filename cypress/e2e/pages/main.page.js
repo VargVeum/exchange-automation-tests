@@ -2,7 +2,6 @@ const mainPagePageLocators = {
     pageTitle: 'h1',
     signInButton: '.auth__list-item-link--is-home-secondary',
     cookiebamnner: '#cookie-bar-button'
-
 }
 
 export class MainPage {
