@@ -2,7 +2,7 @@
 
 > # For opening project 
 
-##### 1. Create folder for project (in terminal)
+##### 1. Create folder on desktop for project (in terminal)
 ~~~
 mkdir btcbit && cd btcbit
 ~~~
@@ -61,31 +61,6 @@ HTML report successfully created!
 
 ******btcbit\exchange-automation-tests\cypress\reports\html\index.html
 ~~~
-Copy and paste this link in browser URL
+Copy and paste this link in browser URL for check test results
 
-> # Files uploader
-~~~
-(!) Pay attention that files for uploading should be stored on "Fixture" folder for correctly processing.
-For interactive with upload element on page need to use .attachFile cypress plugin. 
-Use only 'input' locator as interactive element on page.
-~~~
-> # Potential problems:
-Sometimes some errors is appear if project set up fo 'clean' OS Windows or other OS:
 
-### Errors about java generating tool when user try to generate report
-SOLUTION: Need to install Java JDK on Windows (if system is clean)
-~~~
-https://www.oracle.com/java/technologies/downloads/
-~~~
-
-### 'Allure is not recognized as operational command...' when user try to generate report
-SOLUTION: Need to install additional command line for Allure (already added to package.json)
-~~~
-npm i allure-commandline
-~~~
-
-### Errors about Git (Git is not recognized...)
-SOLUTION: Need to install GIT
-~~~
-https://git-scm.com/download/win
-~~~

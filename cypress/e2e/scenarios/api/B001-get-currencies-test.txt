@@ -1,0 +1,19 @@
+#positive scenario: Get currencies
+
+1) send GET request for receive currencies data
+
+# cy.request({            
+#     method: 'POST',
+#     url: 'https://btcbit.net/ajax/currency-rates',
+#     headers: {      
+#         'Content-Type': 'multipart/form-data',
+#     },
+#     body: data
+#     }).then((response) => {
+#         expect(response).property('status').to.equal(200)
+#     })
+#     return this;
+
+2) check response status code 200
+
+
